@@ -12,7 +12,7 @@ from utils import save_model, save_plots
 
 seed = 42
 torch.manual_seed(seed)
-torch.mps.seed(seed)
+torch.mps.seed()
 torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = True
 
